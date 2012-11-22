@@ -7,5 +7,6 @@ usr/share/argus/pdp/sbin
 var/lib/argus/pdp
 var/lib/argus/pdp/lib
 var/lib/argus/pdp/lib/endorsed
+var/lib/argus/pdp/lib/provided
 var/log/argus/pdp
 
