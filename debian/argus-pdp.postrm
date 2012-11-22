@@ -30,8 +30,8 @@ case "$1" in
 esac
 
 # unregister the service
-if [ "$1" = "purge" ] ; then
-    update-rc.d argus-pdp remove >/dev/null
+if [ "$1" = "remove" ] ; then
+    update-rc.d -f argus-pdp remove >/dev/null
 fi
 
 exit 0
