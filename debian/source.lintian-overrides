@@ -1,0 +1,4 @@
+# disable some lintian warning
+argus-pdp source: maintainer-script-lacks-debhelper-token debian/argus-pdp.prerm
+argus-pdp source: maintainer-script-lacks-debhelper-token debian/argus-pdp.postrm
+argus-pdp source: maintainer-script-lacks-debhelper-token debian/argus-pdp.postinst
